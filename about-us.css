@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #078465;
+    --secondary-color: #F16600;
+    --bg-color: #F9F5F6;
+  }
+  
+  body {
+    position: relative; 
+    overflow-x: hidden; 
+  }
+  
+  nav .sign-in {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2vh;
+  
+  }
+  
+  nav .sign-in input {
+    width: 15vw;
+    height: fit-content;
+    display: flex;
+    margin-right: 15vw;
+    font-size: 20px;
+    border: none;
+    background-color: none;
+  }
+  
+  nav .sign-in svg {
+    height: 4vh;
+    padding: 0 10px;
+  }
+  
+  .about-us {
+    width: 100%;
+    max-width: 100vw;
+    height: max-content;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .about-us .about-us-contents {
+    display: contents;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column; /* Adjusted to flex-direction: column */
+    align-items: center; /* Added to center align */
+    justify-content: center; /* Added to center align */
+  }
+  
+  .about-us .about-us-contents img {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .about-us .about-us-contents .about-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  .about-us .about-us-contents .about-contents h1 {
+    font-size: 100px;
+  }
+  
+  .about-us .about-us-contents .about-contents p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+  }
+  
+  .our-goals {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  
+  .split-container {
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .our-mission,
+  .our-vision {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+  
+  .our-goals .split-container .our-mission h2,
+  .our-vision h2,
+  .our-team .teamlines .headline h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  
+  .our-goals .split-container .our-vision span,
+  .our-team .teamlines .headline h2 {
+    color: var(--secondary-color)
+  }
+  
+  .our-goals .split-container .our-mission p,
+  .our-vision p {
+    color: black;
+    /* margin-top: 50px; */
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    padding: 30px 30px 30px 30px;
+    line-height: 30px;
+  }
+  
+  /* .our-goals .split-container .our-vision p,.our-vision h2  {
+    margin-right: 10vw;
+  } */
+  
+  
+  @media screen and (max-width: 1200px) {
+  
+    .our-mission,
+    .our-vision {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+  
+    .our-mission,
+    .our-vision {
+      width: 50%;
+    }
+  }

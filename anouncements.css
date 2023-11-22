@@ -1,0 +1,56 @@
+body{
+    background-size: cover;
+    display: flex;
+}
+.announcements {
+    display: block;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgb(3, 88, 3);
+    height: 70vh;
+    width: 40vw;
+    color: white;
+    
+}
+.information {
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.sub{
+    margin-top: 30px;
+}
+.details {
+    text-align: left;
+    /* background-color: red; */
+    margin: 50px 10px 0 30px;
+}
+.details p {
+    margin-left: 40px;
+}
+.styled{
+    width: 20vw;
+    background-color: white;
+    margin-left: 8rem;
+}
+.requirements {
+    margin: 20px 0 0 30px;
+}
+li{
+    list-style: none;
+}
+.requirements p {
+    margin-top: 50px
+    ;
+}
+span{
+    color: green;
+}
+
