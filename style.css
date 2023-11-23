@@ -10,8 +10,8 @@
     scroll-behavior:smooth;
   }
   :root {
-    --primary-color: #078465;
-    --secondary-color: #F16600;
+    --primary-color: #149212;
+    --secondary-color: #ddb91e;
     --bg-color: #F9F5F6;
   }
   
@@ -54,10 +54,10 @@ span {
     position: relative;
   }
   
-  .home-page svg {
+  .home-page img {
     position: absolute;
-    top: -5rem;
-    right: 0;
+    top: -1rem;
+    right: 1;
   
   }
   
